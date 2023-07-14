@@ -1,0 +1,22 @@
+<?ADF VERSION "1.0"?> 
+<?XML VERSION “1.0”?> 
+<adf>
+<prospect> 
+	<requestdate>DATETIME</requestdate> 
+	<vehicle>
+		<year>YEAR</year> 
+		<make>MAKE</make> 
+		<model>MODEL</model>
+	</vehicle> 
+	<customer>
+		<contact>
+			<name part="full">FULLNAME</name>
+			<phone>PHONE</phone> </contact>
+	</customer> 
+	<vendor>
+		<contact>
+			<name part="full">DEALER</name>
+		</contact> 
+	</vendor>
+</prospect> 
+</adf>
